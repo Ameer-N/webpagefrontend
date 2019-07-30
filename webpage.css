@@ -1,0 +1,73 @@
+body{
+    background-image:url(https://www.fabulous-stives.co.uk/wp-content/uploads/2018/03/WELCOME-ST-IVES.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.tit{
+    color:green;
+    font-size: 23px;
+    text-decoration: underline;
+    text-decoration-color: black;
+    
+}
+header{
+    background-color:grey; 
+}
+#welcome{
+ 
+    color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:10px;
+    font-size:30px;
+}
+#page{
+   color:green;
+   font-size: 20px;
+}
+.right a{
+    float:left;
+    font-size:20px;
+    text-decoration: none;
+    color:black;
+    display:block;
+    overflow: hidden;
+    margin:0px;
+    padding: 10px;
+    text-align: center;
+    height:20px;
+}
+
+.register a{
+    width:20%;
+    background-color:lightgrey; 
+   
+}
+.about a{
+    width:22%;
+    background-color:aqua; 
+    
+}
+.contact a{
+    width:22%;
+    background-color:bisque; 
+   
+}
+.login a{
+    width:24%;
+    background-color:powderblue; 
+
+}
+
+
+.right a:hover{
+    background-color: grey;
+    color:black;
+}
+@media only screen and (max-width: 900px) {
+    
+    .register a,.about a,.contact a,.login a{
+        width:100%;
+        height:auto;
+       
+    }
+}
